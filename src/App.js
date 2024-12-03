@@ -1,15 +1,11 @@
 import './App.css';
-
-function Welcome(){
-  return(
-    <p>You will soon see a cool website here!</p>
-  );
-}
+import Welcome from './components/Welcome';
 
 export default function App(){
   return(
     <div>
-      <h1>The Work is in Progress.</h1>
+      <navbar />
+      <h1 class="text-center text-3xl font-mono font-bold">The Work is in Progress.</h1>
       <Welcome/>
     </div>
   );
